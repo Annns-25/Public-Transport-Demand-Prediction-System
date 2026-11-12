@@ -1,16 +1,7 @@
 # Public-Transport-Demand-Prediction-System
-🚌 **Public Transport Demand Prediction System** is a Machine Learning project that predicts passenger demand using historical transport, time, route, and weather data. It uses a **Random Forest Regression model** and provides an interactive **Gradio interface** for real-time demand prediction and service recommendations.
-# 🚌 Public Transport Demand Prediction System
+ Public Transport Demand Prediction System is a Machine Learning project that predicts passenger demand using historical transport, time, route, and weather data. It uses a **Random Forest Regression model** and provides an interactive **Gradio interface** for real-time demand prediction and service recommendations.
 
-### ML-Based Passenger Demand Prediction using Random Forest Regression
-
-An end-to-end **Machine Learning project** that predicts the expected number of passengers in public transportation based on factors such as time, route, weather, holidays, special events, transport mode, and scheduled capacity.
-
-The project includes **data preprocessing, feature engineering, model training, evaluation, and an interactive Gradio prediction interface**.
-
----
-
-## 📌 Project Overview
+## Project Overview
 
 Public transport demand changes depending on the time of day, route, weather, holidays, special events, and other factors.
 
@@ -46,37 +37,6 @@ Therefore, this project aims to develop a Machine Learning system that predicts 
 * Identify low, medium, and high demand periods.
 * Help optimize vehicle and service allocation.
 * Provide an easy-to-use prediction interface using Gradio.
-
----
-
-## 📊 Dataset
-
-The dataset contains transportation records with information about:
-
-| Feature              | Description                  |
-| -------------------- | ---------------------------- |
-| `record_id`          | Unique record identifier     |
-| `timestamp`          | Date and time of the record  |
-| `date`               | Date of travel               |
-| `hour`               | Hour of the day              |
-| `day_of_week`        | Numerical day of week        |
-| `day_name`           | Name of the day              |
-| `is_weekend`         | Weekend indicator            |
-| `is_holiday`         | Holiday indicator            |
-| `is_special_event`   | Special event indicator      |
-| `is_peak_hour`       | Peak-hour indicator          |
-| `route_id`           | Transport route              |
-| `transport_mode`     | Bus/Metro/etc.               |
-| `stop_name`          | Transport stop               |
-| `distance_to_cbd_km` | Distance from CBD            |
-| `weather_condition`  | Weather condition            |
-| `temperature_c`      | Temperature                  |
-| `precipitation_mm`   | Precipitation                |
-| `humidity_pct`       | Humidity                     |
-| `fare_inr`           | Fare                         |
-| `scheduled_capacity` | Scheduled passenger capacity |
-| `passenger_count`    | **Target variable**          |
-| `occupancy_rate_pct` | Occupancy percentage         |
 
 ### 🎯 Target Variable
 
@@ -331,60 +291,6 @@ Potential benefits include:
 * More efficient scheduling
 * Better peak-hour planning
 * Data-driven transportation management
-
----
-
-## ⚠️ Limitations
-
-* Prediction quality depends on the quality of historical data.
-* Unexpected events may affect actual passenger demand.
-* The current model does not use live transportation data.
-* Weather and special-event information may not always be available in real time.
-* The demand thresholds used for recommendations are simplified.
-
----
-
-## 👨‍💻 Project Type
-
-**Machine Learning — Regression**
-
-### Model
-
-```text
-Random Forest Regressor
-```
-
-### Target
-
-```text
-passenger_count
-```
-
-### Interface
-
-```text
-Gradio
-```
-
-### Development Environment
-
-```text
-Jupyter Notebook
-```
-
----
-
-## 📜 License
-
-This project is created for **educational and academic purposes**.
-
----
-
-## ⭐ Acknowledgement
-
-This project was developed as part of a Machine Learning project to demonstrate the practical application of regression techniques in public transportation demand forecasting.
-
----
 
 ## 🚀 Conclusion
 
